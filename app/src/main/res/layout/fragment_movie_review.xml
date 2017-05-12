@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/movie_review_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/margin_small"
+    card_view:cardCornerRadius="@dimen/radius_small"
+    card_view:contentPadding="@dimen/padding_small">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_detail_review"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <View style="@style/SectionTitleView" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_movie_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

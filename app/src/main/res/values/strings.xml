@@ -1,0 +1,48 @@
+<resources>
+    <!-- Name for the application -->
+    <string name="app_name">Cinemania</string>
+
+    <!-- Name for detail activity -->
+    <string name="detail_name">Movie Details</string>
+
+    <!-- Label for overflow menu that sort bu popular movies -->
+    <string name="sort_popular_movies">Popular</string>
+
+    <!-- Label for overflow menu that sort by top rated movies -->
+    <string name="sort_top_rated_movies">Top Rated</string>
+
+    <!-- Label for overflow menu that sort by favorites movies -->
+    <string name="sort_favorites_movies">Favorites</string>
+
+    <!-- Activity label for popular movies selected -->
+    <string name="label_popular_movies">Popular Movies</string>
+
+    <!-- Activity label for top rated movies selected -->
+    <string name="label_top_rated_movies">Top Rated Movies</string>
+
+    <!-- Activity label for favorites movies selected -->
+    <string name="label_favorites_movies">Favorites Movies</string>
+
+    <!-- Detail Data -->
+    <string name="label_detail_overview">Overview</string>
+    <string name="label_detail_trailer">Trailers</string>
+    <string name="label_detail_review">Reviews</string>
+
+    <!-- Error Message -->
+    <string name="error_no_internet_connection">
+        Check internet connection and try again.
+    </string>
+
+    <string name="error_empty_favorites">
+        Add some movies to favorites.
+    </string>
+
+    <string name="error_database">
+        Internal DB Error. Please try again.
+    </string>
+
+    <string name="empty_view_title">
+        Movie list is empty.
+    </string>
+
+</resources>
