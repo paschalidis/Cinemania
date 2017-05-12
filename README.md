@@ -33,3 +33,6 @@ You’ll add more information to your movie details view:
 To fetch movies, you will use the API from themoviedb.org you will need to [create](https://www.themoviedb.org/account/signup) an account in order to request an API KEY. More details in [API Documentation](https://developers.themoviedb.org/3/getting-started)
 
 Finaly you will need to add your API KEY in [USER_HOME]/.gradle/grandle.properties file : MyTheMovieDbApiToken = "YOUR_API_KEY" variable.
+=======
+# Cinemania
+>>>>>>> 97a4b9a43d6d03bb3bdb64c5c75735b15f5d6274
